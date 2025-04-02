@@ -9,6 +9,7 @@ MOVE_INCREMENT = 10
 
 class CarManager():
     def __init__(self):
+        # 리스트에 저장하는 이유: 차를 매 루프마다 움직이게 하기 위하여.
         self.all_cars = []
 
     def create_car(self):
